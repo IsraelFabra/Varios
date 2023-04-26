@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclado</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #cajaTeclado {
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      border: 1px solid black;
+      border-radius: 3px;
+      background-color: burlywood;
+    }
+    #cajaTeclasLetras, #cajaTeclasAcciones {
+      text-align: center;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      padding: 10px;
+      resize: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="cajaTeclado">
+    <textarea></textarea>
+    <div id="cajaTeclasLetras"></div>
+    <div id="cajaTeclasAcciones"></div>
+  </div>
+  <script src="teclado.js"></script>
+</body>
+</html>
