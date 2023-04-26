@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <script src="calculadora.js"></script>
+  <style>
+    #contenedor {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .calculadora {
+      width: 27%;
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid black;
+      border-radius: 3px;
+    }
+
+    input {
+      margin: 5px 0;
+    }
+
+    .calculadora input[type=number], 
+    .calculadora input[type=text] {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <input type="number">
+  <input type="button" value="Crear" onclick="crear()">
+  <hr>
+  <div id="contenedor"></div>
+
+</body>
+</html>
+
